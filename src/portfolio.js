@@ -1,210 +1,227 @@
-import emoji from 'react-easy-emoji';
+import emoji from 'react-easy-emoji'
 
-import googlelogo from './assets/img/icons/common/google.svg'
-import github from './assets/img/icons/common/github.svg'
-import airbnb from './assets/img/icons/common/airbnbLogo.png'
+import sterling from './assets/img/icons/common/sterling.jpg'
+import enye from './assets/img/icons/common/enye.png'
+import hadajcom from './assets/img/icons/common/hadajcom.PNG'
+import start from './assets/img/icons/common/start.jpg'
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+  'name': 'Abdur-Raqeeb Ajao',
+  'title': 'Hi all, I\'m Abdur-Raqeeb',
+  'description': 'A passionate Full Stack Web Developer and Backend App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Typescript / NestJS and some other cool libraries and frameworks.',
+  'resumeLink': 'https://res.cloudinary.com/abdraqeeb/image/upload/v1621527664/Abdur-Raqeeb_CV_xgb8sv.pdf'
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
-};
-
-export const contact = {
-  
+  githubUserName: 'AbdRaqeeb',
 }
 
+export const contact = {}
+
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+  'facebook': 'https://www.facebook.com/roqmania',
+  'instagram': 'https://www.instagram.com/abdraqeeb',
+  'twitter': 'https://twitter.com/roqmania',
+  'github': 'https://github.com/AbdRaqeeb',
+  'linkedin': 'https://www.linkedin.com/in/abdur-raqeeb-ajao-98427213a'
 }
 
 export const skillsSection = {
-    title: 'What I do',
-    subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
-    skills: [
-      emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
-      ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
-      emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
-      ),
-    ],
-    
-    softwareSkills: [
-      {
-        skillName: 'html-5',
-        fontAwesomeClassname: 'vscode-icons:file-type-html',
-      },
-      {
-        skillName: 'css3',
-        fontAwesomeClassname: 'vscode-icons:file-type-css',
-      },
-      {
-        skillName: 'sass',
-        fontAwesomeClassname: 'logos:sass',
-      },
-      {
-        skillName: 'JavaScript',
-        fontAwesomeClassname: 'logos:javascript',
-      },
-      {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
-      },
-      {
-        skillName: 'reactjs',
-        fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
-      },
-      {
-        skillName: 'nodejs',
-        fontAwesomeClassname: 'logos:nodejs-icon',
-      },
-      {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
-      },
-      {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
-      {
-        skillName: 'npm',
-        fontAwesomeClassname: 'vscode-icons:file-type-npm',
-      },
-      {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
-      },
-      {
-        skillName: 'mongoDB',
-        fontAwesomeClassname: 'vscode-icons:file-type-mongo',
-      },
-      {
-        skillName: 'aws',
-        fontAwesomeClassname: 'logos:aws',
-      },
-      {
-        skillName: 'firebase',
-        fontAwesomeClassname: 'logos:firebase',
-      },
-      {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
-      },
-      {
-        skillName: 'git',
-        fontAwesomeClassname: 'logos:git-icon',
-      },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
-    ],
+  title: 'What I do',
+  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  skills: [
+    emoji(
+      '⚡ Develop highly interactive Front end / User Interfaces for your web applications'
+    ),
+    emoji('⚡ Develop functional and sustainable web applications with clean codes'),
+    emoji('⚡ Manage cutting-edge technologies to improve applications'),
+    emoji(
+      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+    ),
+  ],
+
+  softwareSkills: [
+    {
+      skillName: 'html-5',
+      fontAwesomeClassname: 'vscode-icons:file-type-html',
+    },
+    {
+      skillName: 'css3',
+      fontAwesomeClassname: 'vscode-icons:file-type-css',
+    },
+    {
+      skillName: 'tailwind',
+      fontAwesomeClassname: 'logos:tailwindcss-icon',
+    },
+    {
+      skillName: 'JavaScript',
+      fontAwesomeClassname: 'logos:javascript',
+    },
+    {
+      skillName: 'TypeScript',
+      fontAwesomeClassname: 'logos:typescript-icon',
+    },
+    {
+      skillName: 'reactjs',
+      fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+    },
+    {
+      skillName: 'grapqhl',
+      fontAwesomeClassname: 'logos:graphql',
+    },
+    {
+      skillName: 'redux',
+      fontAwesomeClassname: 'logos:redux',
+    },
+    {
+      skillName: 'nodejs',
+      fontAwesomeClassname: 'logos:nodejs-icon',
+    },
+    {
+      skillName: 'nestjs',
+      fontAwesomeClassname: 'logos:nestjs',
+    },
+    {
+      skillName: 'npm',
+      fontAwesomeClassname: 'vscode-icons:file-type-npm',
+    },
+    {
+      skillName: 'sql-database',
+      fontAwesomeClassname: 'vscode-icons:file-type-sql',
+    },
+    {
+      skillName: 'mongoDB',
+      fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+    },
+    {
+      skillName: 'aws',
+      fontAwesomeClassname: 'logos:aws',
+    },
+    {
+      skillName: 'firebase',
+      fontAwesomeClassname: 'logos:firebase',
+    },
+    {
+      skillName: 'git',
+      fontAwesomeClassname: 'logos:git-icon',
+    },
+    {
+      skillName: 'sequelize',
+      fontAwesomeClassname: 'logos:sequelize',
+    },
+    {
+      skillName: 'knex',
+      fontAwesomeClassname: 'logos:knex',
+    },
+    {
+      skillName: 'postgresql',
+      fontAwesomeClassname: 'logos:postgresql',
+    },
+    {
+      skillName: 'mysql',
+      fontAwesomeClassname: 'logos:mysql',
+    },
+  ],
 }
 
-
 export const SkillBars = [
-    {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
-    },
-    {
-      Stack: 'Backend',
-      progressPercentage: '70',
-    },
-    {
-      Stack: 'Programming',
-      progressPercentage: '60',
-    },
-  ]
+  {
+    Stack: 'Backend',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'Frontend', //Insert stack or technology you have experience in
+    progressPercentage: '60', //Insert relative proficiency in percentage
+  },
+  {
+    Stack: 'Programming',
+    progressPercentage: '60',
+  },
+]
 
 export const educationInfo = [
-    {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
-    },
+  {
+    schoolName: 'Federal University of Technology, Akure',
+    subHeader: 'Bachelor of Science in Human Anatomy',
+    duration: 'November 2015 - December 2019',
+    desc: 'Participated in the research of histomorphometric impact of riboceine on testes.',
+    descBullets: [
+      'Graduated with a CGPA of 4.7 / 5.0',
+      'Won Silver Medal in Squash at Nigeria University Games.',
+    ],
+  },
 ]
 
 export const experience = [
   {
     role: 'Software Engineer',
-    company: 'Google',
-    companylogo: googlelogo,
-    date: 'June 2018 – Present',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
+    company: 'Sterling Bank',
+    companylogo: sterling,
+    date: 'March 2021 – Present',
+    desc: 'Sterling Bank Plc, is a full service national commercial bank is licensed by the Central Bank of Nigeria.'
   },
   {
-    role: 'Front-End Developer',
-    company: 'Github',
-    companylogo: github,
-    date: 'May 2017 – May 2018',
-    desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    role: 'Software Engineer',
+    company: 'Enye',
+    companylogo: enye,
+    date: 'Dec 2020 – March 2021',
+    desc: 'Enye is a mission driven education technology non-profit company that run a platform that fosters growth within Nigerian communities by empowering their brightest to become innovators, creators and mentors.'
   },
   {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
-    companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    role: 'Software Developer',
+    company: 'Start.ng',
+    companylogo: start,
+    date: 'Feb 2020 – Dec 2020',
+    desc: 'Start.ng is a platform that gives everyone an equal opportunity of learning in  the tech world, in order to develop and build new generation Tech Developers. '
+  },
+  {
+    role: 'Software Developer',
+    company: 'Hadajcom',
+    companylogo: hadajcom,
+    date: 'Feb 2018 – Jan 2020',
+    desc: 'Hadajcom is a telecommunication engineering company that deals in the installation, repair and other services of intercomms, CCTV and other telecommunication devices.'
   },
 ]
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: 'Bimrec',
+    desc: 'An application where patients can keep track of their medical history from anywhere in the world. Doctors can access such medical records with facial scan during emergencies.',
     link: {
-      name: "hanzla",
-      url: "kasjfklsdjf"
+      name: 'view',
+      url: 'https://livritehealthcare.com.ng/bimrec'
     }
-  }
+  },
+  {
+    name: 'Zeemart',
+    desc: 'A management dashboard to help manage the operations of an ecommerce company.',
+    link: {
+      name: 'view',
+      url: 'http://limitless-escarpment-55868.herokuapp.com'
+    }
+  },
+  {
+    name: 'Foodstore API',
+    desc: 'This is a RESTful API documentation for an online food store application.',
+    link: {
+      name: 'view',
+      url: 'https://foodstore-ng.herokuapp.com'
+    }
+  },
+  {
+    name: 'Cajeq',
+    desc: 'This is a RESTful API documentation for an online vehicle rentals application.',
+    link: {
+      name: 'view',
+      url: 'https://ride-ng.herokuapp.com'
+    }
+  },
+  {
+    name: 'Cloudinary-simple-upload',
+    desc: 'This is an open source node package for uploading files to cloudinary.',
+    link: {
+      name: 'view',
+      url: 'https://www.npmjs.com/package/cloudinary-simple-upload'
+    }
+  },
 ]

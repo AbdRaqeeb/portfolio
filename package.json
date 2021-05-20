@@ -1,5 +1,6 @@
 {
   "name": "developer-portfolio",
+  "homepage": "http://abdraqeeb.github.io/portfolio",
   "version": "1.0.0",
   "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
   "main": "index.js",
@@ -10,14 +11,15 @@
   "author": "1hanzla100",
   "license": "MIT",
   "bugs": {
-    "url": "https://hanzla.ga"
+    "url": "http://abdraqeeb.github.io/portfolio"
   },
-  "homepage": "",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,7 +39,7 @@
     "graphql": "^15.4.0",
     "headroom.js": "0.11.0",
     "moment": "2.24.0",
-    "node-sass": "4.13.1",
+    "node-sass": "4.14.1",
     "nouislider": "14.1.1",
     "react": "16.12.0",
     "react-datetime": "2.16.3",
@@ -56,6 +58,7 @@
     "@types/markerclustererplus": "2.1.33",
     "@types/react": "16.9.19",
     "eslint-plugin-flowtype": "3.13.0",
+    "gh-pages": "^3.1.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.8",
     "jquery": "^3.5.1",
