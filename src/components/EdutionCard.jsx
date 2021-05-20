@@ -22,7 +22,7 @@ const EdutionCard = ({education}) => {
                         <Badge color="info" className="mr-1">
                         {education.duration}
                     </Badge>
-                        <p className="description mt-3">
+                        <div className="description mt-3">
                             {education.desc}
                             <ul>
                             {
@@ -32,7 +32,7 @@ const EdutionCard = ({education}) => {
                                 }) : null
                             }
                         </ul>
-                        </p>
+                        </div>
                     </div>
                     </div>
                 </CardBody>

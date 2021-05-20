@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import { projects } from "../portfolio";
 import {
@@ -25,8 +25,8 @@ const Projects = () => {
                 </div>
                 <Row className="row-grid align-items-center">
                     {
-                        projects.map(data => {
-                            return <ProjectsCard data={data} />
+                        projects.map((data, i) => {
+                            return <Fragment key={i}><ProjectsCard data={data} /></Fragment>
                         })
                     }
                 </Row>

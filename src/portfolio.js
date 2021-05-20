@@ -9,7 +9,7 @@ export const greetings = {
   'name': 'Abdur-Raqeeb Ajao',
   'title': 'Hi all, I\'m Abdur-Raqeeb',
   'description': 'A passionate Full Stack Web Developer and Backend App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Typescript / NestJS and some other cool libraries and frameworks.',
-  'resumeLink': 'https://res.cloudinary.com/abdraqeeb/image/upload/v1621527664/Abdur-Raqeeb_CV_xgb8sv.pdf'
+  'resumeLink': 'https://res.cloudinary.com/abdraqeeb/image/upload/v1621540543/Abdur-Raqeeb_CV_wvhrnn.pdf'
 }
 
 export const openSource = {
